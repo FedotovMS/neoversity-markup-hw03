@@ -237,7 +237,7 @@ body {
 
 .values-list {
   display: flex;
-  gap: 42px;
+  gap: 24px;
 }
 
 .values-item {
