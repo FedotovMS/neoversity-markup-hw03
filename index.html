@@ -11,53 +11,67 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="page-header">
-      <nav class="nav">
-        <a class="logo-blue" href="./index.html"
-          >web<span class="logo-dark">Studio</span></a
-        >
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">Studio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="contact">
-        <ul class="contact-list">
-          <li>
-            <a class="contact-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contact-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <section class="header-section">
+      <div class="container header-container">
+        <nav class="nav">
+          <a class="logo-blue logo" href="./index.html"
+            >web<span class="logo-dark">Studio</span></a
+          >
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contact">
+          <ul class="contact-list">
+            <li>
+              <a class="contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+      </section>
     </header>
     <main>
       <!-- HERO -->
-      <section class="hero">
+      <section class="hero-section">
+        <div class="container">
         <h1 class="hero-title">
           Effective Solutions <br />
           for Your Business
         </h1>
         <button class="hero-btn" type="button">Order Service</button>
+      </div>
       </section>
       <!-- values -->
-      <section>
+      <section class="section values-section">
+        <div class="container">
         <h2 hidden class="values-title">Our values</h2>
         <ul class="values-list">
           <li class="value-item">
@@ -89,9 +103,11 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <!-- Activities -->
-      <section>
+      <section class="section activities-section">
+        <div class="container">
         <h2 class="activities-title">What are we doing</h2>
         <ul class="activities-list">
           <li class="activities-item">
@@ -121,7 +137,8 @@
         </ul>
       </section>
       <!-- Our Team -->
-      <section class="team">
+      <section class="section team-section">
+        <div class="container">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
           <li class="team-item">
@@ -131,8 +148,11 @@
               width="264"
               height="260"
             />
-            <h3 class="team-names">Mark Guerrero</h3>
-            <p class="team-staff">Product Designer</p>
+            <div class="team-text">
+              <h3 class="team-names">Mark Guerrero</h3>
+            <p class="team-descr">Product Designer</p>
+            </div>
+            
           </li>
           <li class="team-item">
             <img
@@ -141,8 +161,10 @@
               width="264"
               height="260"
             />
+            <div class="team-text">
             <h3 class="team-names">Tom Ford</h3>
-            <p class="team-staff">Frontend Developer</p>
+            <p class="team-descr">Frontend Developer</p>
+            </div>
           </li>
           <li class="team-item">
             <img
@@ -151,8 +173,10 @@
               width="264"
               height="260"
             />
+            <div class="team-text">
             <h3 class="team-names">Camila Garcia</h3>
-            <p class="team-staff">Marketing</p>
+            <p class="team-descr">Marketing</p>
+            </div>
           </li>
           <li class="team-item">
             <img
@@ -161,14 +185,20 @@
               width="264"
               height="260"
             />
+            <div class="team-text">
             <h3 class="team-names">Daniel Wilson</h3>
-            <p class="team-staff">UI Designer</p>
+            <p class="team-descr">UI Designer</p>
+            </div>
           </li>
         </ul>
+        </div>
+        </div>
       </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
+      <section class="footer-section">
+      <div class="container">
       <a class="logo-blue" href="./index.html"
         >web<span class="logo-white">Studio</span></a
       >
@@ -177,6 +207,8 @@
         for your business with digital <br />
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
+    </section>
   </body>
 </html>
