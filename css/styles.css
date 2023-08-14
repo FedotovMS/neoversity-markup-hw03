@@ -34,6 +34,16 @@ h2 {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.4px;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+}
+
 ul,
 p {
   margin: 0;
