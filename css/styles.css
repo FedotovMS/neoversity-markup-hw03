@@ -86,10 +86,23 @@ body {
   border-bottom: 1px solid var(--cornflower);
   background: var(--white, #fff);
 }
+
 .logo {
   display: block;
-  padding: 25px 0;
+  padding: 24px 0;
   margin-right: 76px;
+}
+
+.logo-blue {
+  display: inline-block;
+  font-family: var(--primary-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--secondary-color);
 }
 
 .logo-dark {
@@ -299,19 +312,9 @@ body {
   padding: 100px 0;
 }
 
-.logo-blue {
-  display: inline-block;
+.logo-footer {
   margin-bottom: 16px;
-  font-family: var(--primary-font);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  color: var(--secondary-color);
 }
-
 .footer-text {
   max-width: 264px;
   color: var(--color-txt-button);
